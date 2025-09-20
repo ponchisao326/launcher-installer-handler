@@ -2,7 +2,6 @@ use std::fs::{create_dir_all, remove_file, File};
 use std::io::copy;
 use std::path::Path;
 use launcher_request_handler::*;
-use system_shutdown::{reboot, shutdown};
 
 pub struct InstallerOptions {
     pub zip_path: String,
