@@ -1,0 +1,9 @@
+[package]
+name = "launcher-installer-handler"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+launcher-request-handler = { git = "https://github.com/ponchisao326/launcher-request-handler.git" }
+zip = "5.1.1"
+system_shutdown = "4.0.1"
